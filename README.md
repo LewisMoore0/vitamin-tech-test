@@ -17,6 +17,13 @@ Your task is to build a simplified calendar view with a basic form that let’s 
 - The calendar should be styled similar to the screenshot below, but don’t worry too much about getting the styling perfect, the functionality is more important
 - Try to treat the task as you would a task in your regular day job (e.g. regular git commits, well structured code)
 
+## Stretch goals
+
+If you have time:
+
+- Add in an animation when a new event is created ✨
+- Remove the restriction on events only being an hour long, and only occuring on the hour, whilst still making sure events don’t visually overlap in the calendar view.
+
 ## Tips:
 
 - Don’t spend more than a couple of hours on the task. Don't worry if you aren’t able to complete the task in the time you have available. We are primarily interested in seeing how you approach and tackle the problem
