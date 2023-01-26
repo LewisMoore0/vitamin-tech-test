@@ -15,6 +15,7 @@ Your task is to build a simplified calendar view with a basic form that let’s 
   - Event time (09:00 - 17:00)
 - Events should take up the full width of the column for that day. If there are multiple events occuring at the same time on the same day they should each take an equal portion of the column width (e.g. ½ width for 2 events, ⅓ width for 3 events etc, see screenshot below for examples)
 - The calendar should be styled similar to the screenshot below, but don’t worry too much about getting the styling perfect, the functionality is more important
+- Saving the events to some sort of storage is not necessary. If all the events disappear when you refresh the page that’s fine.
 - Try to treat the task as you would a task in your regular day job (e.g. regular git commits, well structured code)
 
 ## Stretch goals
