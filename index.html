@@ -1,5 +1,6 @@
 <html>
     <head>
+        <script src="app.js"></script>
       <style>
         table, td, th {
             border: 1px solid black;
@@ -26,15 +27,15 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr id="0900">
                     <td>09:00</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td id="Monday"></td>
+                    <td id="Tuesday"></td>
+                    <td id="Wednesday"></td>
+                    <td id="Thursday"></td>
+                    <td id="Friday"></td>
+                    <td id="Saturday"></td>
+                    <td id="Sunday"></td>
                   </tr>
                   <tr>
                     <td>10:00</td>
@@ -118,5 +119,15 @@
                   </tr>
             </tbody>
         </table>
+
+        <form>
+            <label for="event">Event:</label>
+            <input type="text" id="event" name="event" />
+            <label for="day">Day:</label>
+            <input type="text" id="day" name="day" />
+            <label for="time">Time:</label>
+            <input type="text" id="time" name="time" />
+            <input type="button" onclick="getInputFromForm()" value="submit" >
+        </form>
     </body>
 </html>
