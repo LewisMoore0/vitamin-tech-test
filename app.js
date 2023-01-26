@@ -1,4 +1,4 @@
-function getInputFromForm() {
+const getInputFromForm = () => {
     let eventValue = document.getElementById("event").value;
     let dayValue = document.getElementById("day").value;
     let timeValue = document.getElementById("time").value;
