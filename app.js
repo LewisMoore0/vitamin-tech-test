@@ -6,6 +6,11 @@ function getInputFromForm() {
     injectDataToTable(eventValue, dayValue, timeValue)
 }
 
-let injectDataToTable = (event, day, time) => {
+const injectDataToTable = (event, day, time) => {
     document.getElementById(time).children[day].innerHTML = event
+    changeBackgroundColour(day, time)
+}
+
+const changeBackgroundColour = (day, time) => {
+    document.getElementById(time).children[day].style.backgroundColor = 'cyan'
 }
